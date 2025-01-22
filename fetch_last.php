@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost"; 
-$username = "renad"; 
-$password = "renad"; 
-$dbname = "robot_control"; 
+$servername = "servername"; // enter your servername
+$username = "username"; // enter your username
+$password = "password"; // enter your password
+$dbname = "robot_control"; // enter your dbname
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
